@@ -25,7 +25,7 @@ public struct RectCorner: OptionSet {
     }
 }
 
-//extension UIView: HXCompatible { }
+extension UIView: HXCompatible { }
 
 private var cornerTypeKey: Void?
 private var cornerRadiusKey: Void?

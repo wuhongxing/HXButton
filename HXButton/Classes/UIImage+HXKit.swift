@@ -6,3 +6,9 @@
 //
 
 import Foundation
+
+extension UIImage: HXCompatible { }
+
+extension HXWrapped where Base: UIImage {
+    
+}

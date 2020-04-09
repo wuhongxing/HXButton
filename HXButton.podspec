@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HXButton'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of HXButton.'
+  s.version          = '0.0.1'
+  s.summary          = '更方便的使用 UIButton'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+                        暂时未完成，后面还会增加一些功能
                        DESC
 
   s.homepage         = 'https://github.com/wuhongxing/HXButton'
@@ -36,7 +36,8 @@ TODO: Add long description of the pod here.
   #   'HXButton' => ['HXButton/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+#   s.public_header_files = 'Pod/Classes/*.h'
+   s.frameworks = 'UIKit', 'Foundation'
+   s.swift_versions = '4.0'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

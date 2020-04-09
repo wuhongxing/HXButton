@@ -8,5 +8,6 @@
 #ifndef HXButton_h
 #define HXButton_h
 
+#import <UIKit/UIKit.h>
 
 #endif /* HXButton_h */

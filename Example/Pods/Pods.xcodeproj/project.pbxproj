@@ -1,0 +1,1155 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00224C929D57F45B70E87359E719948D /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E29C50D3CDB46CBCBD20AFA13EB3D8D /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		07987BFC5652CBE049A4E7ADCCDCE4E7 /* Pods-HXButton_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 14AC38E2AE6FF54928F9B8C83E0EDB29 /* Pods-HXButton_Tests-dummy.m */; };
+		11C410135C7E89353B480AC8DE0BFB77 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F1FE5C23F1BC485C54B92C32E78391F /* UIApplication+StrictKeyWindow.m */; };
+		14AD81D52FAD9CF2C065C61FB00C3B4F /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = E0956940883830C651240E754E3ECC52 /* UIImage+Diff.m */; };
+		14C511527597E5846AB2627F791C7D8E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 716A9972B9D9103B54DB950893FAF104 /* QuartzCore.framework */; };
+		1BAE1D20243CF22C000F42A9 /* HXButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BAE1D1F243CF22C000F42A9 /* HXButton.h */; };
+		1BDC582A243CF449001E4740 /* UIButton+HXButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDC5829243CF449001E4740 /* UIButton+HXButton.swift */; };
+		1BDC582B243CF449001E4740 /* UIButton+HXButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDC5829243CF449001E4740 /* UIButton+HXButton.swift */; };
+		1BDC582C243CF449001E4740 /* UIButton+HXButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDC5829243CF449001E4740 /* UIButton+HXButton.swift */; };
+		1BDC582D243CF449001E4740 /* UIButton+HXButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDC5829243CF449001E4740 /* UIButton+HXButton.swift */; };
+		1BDC582E243CF44F001E4740 /* HXButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BAE1D1F243CF22C000F42A9 /* HXButton.h */; };
+		1BDC582F243CF450001E4740 /* HXButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BAE1D1F243CF22C000F42A9 /* HXButton.h */; };
+		1BDC5830243CF450001E4740 /* HXButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BAE1D1F243CF22C000F42A9 /* HXButton.h */; };
+		1BDC5832243DB8D2001E4740 /* HX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDC5831243DB8D2001E4740 /* HX.swift */; };
+		1BDC5833243DB8D2001E4740 /* HX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDC5831243DB8D2001E4740 /* HX.swift */; };
+		1BDC5834243DB8D2001E4740 /* HX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDC5831243DB8D2001E4740 /* HX.swift */; };
+		1BDC5835243DB8D2001E4740 /* HX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDC5831243DB8D2001E4740 /* HX.swift */; };
+		1BDC5837243DBE22001E4740 /* UIView+HXRectCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDC5836243DBE22001E4740 /* UIView+HXRectCorner.swift */; };
+		1BDC5838243DBE22001E4740 /* UIView+HXRectCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDC5836243DBE22001E4740 /* UIView+HXRectCorner.swift */; };
+		1BDC5839243DBE22001E4740 /* UIView+HXRectCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDC5836243DBE22001E4740 /* UIView+HXRectCorner.swift */; };
+		1BDC583A243DBE22001E4740 /* UIView+HXRectCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDC5836243DBE22001E4740 /* UIView+HXRectCorner.swift */; };
+		1BDC583C243DC188001E4740 /* Runtime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDC583B243DC188001E4740 /* Runtime.swift */; };
+		1BDC583D243DC188001E4740 /* Runtime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDC583B243DC188001E4740 /* Runtime.swift */; };
+		1BDC583E243DC188001E4740 /* Runtime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDC583B243DC188001E4740 /* Runtime.swift */; };
+		1BDC583F243DC188001E4740 /* Runtime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDC583B243DC188001E4740 /* Runtime.swift */; };
+		1BDC5841243EBE31001E4740 /* UIButton+HXState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDC5840243EBE31001E4740 /* UIButton+HXState.swift */; };
+		1BDC5842243EBE31001E4740 /* UIButton+HXState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDC5840243EBE31001E4740 /* UIButton+HXState.swift */; };
+		1BDC5843243EBE31001E4740 /* UIButton+HXState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDC5840243EBE31001E4740 /* UIButton+HXState.swift */; };
+		1BDC5844243EBE31001E4740 /* UIButton+HXState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDC5840243EBE31001E4740 /* UIButton+HXState.swift */; };
+		1BDC5846243EDE8D001E4740 /* UIImage+HXKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDC5845243EDE8D001E4740 /* UIImage+HXKit.swift */; };
+		1BDC5847243EDE8D001E4740 /* UIImage+HXKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDC5845243EDE8D001E4740 /* UIImage+HXKit.swift */; };
+		1BDC5848243EDE8D001E4740 /* UIImage+HXKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDC5845243EDE8D001E4740 /* UIImage+HXKit.swift */; };
+		1BDC5849243EDE8D001E4740 /* UIImage+HXKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDC5845243EDE8D001E4740 /* UIImage+HXKit.swift */; };
+		1BDC584B243EE1D0001E4740 /* UIColor+HXKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDC584A243EE1D0001E4740 /* UIColor+HXKit.swift */; };
+		1BDC584C243EE1D0001E4740 /* UIColor+HXKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDC584A243EE1D0001E4740 /* UIColor+HXKit.swift */; };
+		1BDC584D243EE1D0001E4740 /* UIColor+HXKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDC584A243EE1D0001E4740 /* UIColor+HXKit.swift */; };
+		1BDC584E243EE1D0001E4740 /* UIColor+HXKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDC584A243EE1D0001E4740 /* UIColor+HXKit.swift */; };
+		2DCFF0CE0BD295F1D46D3247F36B192C /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = EF53D290F564A9B10CEF56C9DC2010F2 /* UIImage+Compare.m */; };
+		3B65E00EC8DE95134ECBCD6B909994D8 /* HXButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 76AB1854FC44F8ADAAB8D470BCD18723 /* HXButton-dummy.m */; };
+		40039E0AF0D764360B1D4FC4F7950D2E /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A3ACA72AE9B776E644F6D159AB3E80B /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6AE239C5D116E1C06F5705699FB9EAF0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E601BD54DA9BF4071437E60125281FA /* XCTest.framework */; };
+		6DBC8EB7532E931C2FBDA71D1E0B66A4 /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A83AE4362CF1D4764E00E4602A2D648 /* FBSnapshotTestCase-dummy.m */; };
+		6EE34BE555FEFE1E1B4921DCDAB1F0A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
+		7DD5B7797A02B774411698B70DD25DF3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
+		88396E68DC05A379282F3B374F75F43C /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE35F81C954881204729C569018D98C0 /* FBSnapshotTestController.m */; };
+		8CE3BF0ACE07EA42DD5DAC871BF4B767 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 13C8BBFE2D9E3A9C566221B1DE04E91C /* FBSnapshotTestCase.m */; };
+		8E3D412FE87D8C35DD8DE10FBB00C1BE /* Pods-HXButton_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C1C2DC8286C78BCDE3E8898E811AF79 /* Pods-HXButton_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		90142C6259374E18E640396A59AD379A /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 88EE4F95531D217A595AA8D85A24FA39 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		96637F7B05991881911FDFD1B802A5D4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
+		9D65089019D558E5A9661F2DCAD20313 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D2DF1ABBBD85F5E079D7D0EB5479BC /* SwiftSupport.swift */; };
+		A0884CD21A0DB0588CA04E69D8A11D9F /* HXButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 276E899A62464EA0781F85AFCE08B67F /* HXButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A525E29E0A8079B35B793D8A2B5FBDF2 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = AA172EA1A198EEFBE0794EACF7993C02 /* UIImage+Snapshot.m */; };
+		B25D795BDC4F426BC01EFC911F368B81 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
+		B74CD6E6EBEA0B642776BCB37850415D /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = EA718A72E676291836EBB46B85242155 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		C49D52712466511E332C952834C81FE1 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = D3067EAFD5B0A06885968D137840DB70 /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CEC5AD7505E01B5FFD6254E4AD628437 /* Pods-HXButton_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F55E311061EFCB946D5A911CB28DFBEE /* Pods-HXButton_Example-dummy.m */; };
+		D04AAC8B22E4A4DC4F39891C4E52F251 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = E354F8FD537351F26F7949B4EBFA5101 /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		D670694D8751B066D1F34F99EBD86E35 /* Pods-HXButton_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AB951B257C2B78AEC168F5D251B304F /* Pods-HXButton_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E0B8D095C732352C854D365B9E5B993D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CAA89EEF1039078430D7A886477E365 /* UIKit.framework */; };
+		E8AC509D18EBF21B1FEA909652A01108 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0B81AC7DF4855803A0FA70985F8A99 /* FBSnapshotTestCasePlatform.m */; };
+		F1AAAE00BB32B733B238E2B4E8424506 /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = A25844C26701FA4BCAEF64150B56777F /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		F720FAF13A108CE6901E0A8B0580E1E8 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E621F768263424D9C5C35D58513625CB /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8223F11413ED58ACC0691E5083670CE4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F42E8D7EC90DEA1346578B4BC57A7CB0;
+			remoteInfo = HXButton;
+		};
+		A2359F57D4F0D82BB5AE52C38E9D9534 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71EB6C17BEC7026AFCFD492B8BC79194;
+			remoteInfo = "Pods-HXButton_Example";
+		};
+		DC4EE8702276DFAB3487D98FD1EFBCA2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98A98149697C80CEF8D5772791E92E66;
+			remoteInfo = FBSnapshotTestCase;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02BA6B88D89F9A28B11D04EECA65232F /* HXButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HXButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		07B55DB49E1F9848369CA627FAE2340B /* Pods-HXButton_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HXButton_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		0A3ACA72AE9B776E644F6D159AB3E80B /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
+		12350516C1D269032EED6ECBE75C4D4E /* Pods-HXButton_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HXButton_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		13C8BBFE2D9E3A9C566221B1DE04E91C /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
+		14AC38E2AE6FF54928F9B8C83E0EDB29 /* Pods-HXButton_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HXButton_Tests-dummy.m"; sourceTree = "<group>"; };
+		1B8ABEEA76ECDF1975B6D0787700F929 /* FBSnapshotTestCase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FBSnapshotTestCase-Info.plist"; sourceTree = "<group>"; };
+		1BAE1D1F243CF22C000F42A9 /* HXButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HXButton.h; sourceTree = "<group>"; };
+		1BDC5829243CF449001E4740 /* UIButton+HXButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+HXButton.swift"; sourceTree = "<group>"; };
+		1BDC5831243DB8D2001E4740 /* HX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HX.swift; sourceTree = "<group>"; };
+		1BDC5836243DBE22001E4740 /* UIView+HXRectCorner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+HXRectCorner.swift"; sourceTree = "<group>"; };
+		1BDC583B243DC188001E4740 /* Runtime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Runtime.swift; sourceTree = "<group>"; };
+		1BDC5840243EBE31001E4740 /* UIButton+HXState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+HXState.swift"; sourceTree = "<group>"; };
+		1BDC5845243EDE8D001E4740 /* UIImage+HXKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+HXKit.swift"; sourceTree = "<group>"; };
+		1BDC584A243EE1D0001E4740 /* UIColor+HXKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+HXKit.swift"; sourceTree = "<group>"; };
+		276E899A62464EA0781F85AFCE08B67F /* HXButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HXButton-umbrella.h"; sourceTree = "<group>"; };
+		2E085B12CD4F982BEF2A8CF196F8944A /* Pods-HXButton_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HXButton_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		3522491904658BCB7AC5BF406B29F630 /* Pods-HXButton_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HXButton_Example.release.xcconfig"; sourceTree = "<group>"; };
+		36D55FD17B202F7DD1304ADBB419BC1A /* Pods-HXButton_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HXButton_Example.modulemap"; sourceTree = "<group>"; };
+		3A83AE4362CF1D4764E00E4602A2D648 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
+		3E29C50D3CDB46CBCBD20AFA13EB3D8D /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
+		418E0471655A8CDB5EB2C290498D2FD3 /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
+		494B96F5F4ADF0D605B36B00C0B85DBF /* Pods_HXButton_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HXButton_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F4F2A5B5E573C5535AA0F43509D4118 /* Pods-HXButton_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HXButton_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		5038EA8907684DF103005D9D4BF663D8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		59D05AAF47FDDE153001819AE0A04FF7 /* Pods-HXButton_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HXButton_Example-Info.plist"; sourceTree = "<group>"; };
+		5C1C2DC8286C78BCDE3E8898E811AF79 /* Pods-HXButton_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HXButton_Tests-umbrella.h"; sourceTree = "<group>"; };
+		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E601BD54DA9BF4071437E60125281FA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		5F2D0788A4371AD270A1B93DCE1A039D /* Pods-HXButton_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HXButton_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		63FF78E04F7367AAE721BED0AB010760 /* Pods-HXButton_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HXButton_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6BEDECC80C8C19E90BC3358CE298A8DC /* HXButton-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HXButton-Info.plist"; sourceTree = "<group>"; };
+		716A9972B9D9103B54DB950893FAF104 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		746CC9C9E1B0E104CD1BA120C69A2526 /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
+		76AB1854FC44F8ADAAB8D470BCD18723 /* HXButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HXButton-dummy.m"; sourceTree = "<group>"; };
+		785AF12767DFA9EA0D704D33F8D375C5 /* Pods-HXButton_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HXButton_Tests.modulemap"; sourceTree = "<group>"; };
+		7899E1EB5F70DA3F662DBFBE05220DB7 /* HXButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HXButton.xcconfig; sourceTree = "<group>"; };
+		7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		82D2DF1ABBBD85F5E079D7D0EB5479BC /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
+		88EE4F95531D217A595AA8D85A24FA39 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
+		8A9D8D56330D09276599FE89ACA266E2 /* HXButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HXButton-prefix.pch"; sourceTree = "<group>"; };
+		8AB951B257C2B78AEC168F5D251B304F /* Pods-HXButton_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HXButton_Example-umbrella.h"; sourceTree = "<group>"; };
+		8C1897234DDBC51337437514E6AE745B /* Pods-HXButton_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HXButton_Example-frameworks.sh"; sourceTree = "<group>"; };
+		8CAA89EEF1039078430D7A886477E365 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		8F1FE5C23F1BC485C54B92C32E78391F /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
+		98FD387DFA194173633270BAF1BCD859 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A25844C26701FA4BCAEF64150B56777F /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
+		A4148063F3A8591D73880A570AEDD343 /* Pods-HXButton_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HXButton_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		AA172EA1A198EEFBE0794EACF7993C02 /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
+		AD0B81AC7DF4855803A0FA70985F8A99 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
+		AD9DE86E281AD8AA7BC0D84B33711364 /* Pods-HXButton_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HXButton_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		AE50653A1A0F2900A467960898871B95 /* HXButton.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = HXButton.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C130CB9AF4CE6BD3D81F0D70A9AB0C5F /* Pods-HXButton_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HXButton_Tests-Info.plist"; sourceTree = "<group>"; };
+		CDEF522DAC4E7CFCF084B005B6485842 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		D3067EAFD5B0A06885968D137840DB70 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
+		DD86EF53B4507D1A33443CE3CBF63D57 /* HXButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HXButton.modulemap; sourceTree = "<group>"; };
+		DE35F81C954881204729C569018D98C0 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
+		E0956940883830C651240E754E3ECC52 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
+		E354F8FD537351F26F7949B4EBFA5101 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
+		E621F768263424D9C5C35D58513625CB /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
+		EA718A72E676291836EBB46B85242155 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
+		EF53D290F564A9B10CEF56C9DC2010F2 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
+		F55E311061EFCB946D5A911CB28DFBEE /* Pods-HXButton_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HXButton_Example-dummy.m"; sourceTree = "<group>"; };
+		FA13D2E680F2AC5AE611DE14254BC8D5 /* Pods_HXButton_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HXButton_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		02580CE95C4019C8BC68615B412FC838 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96637F7B05991881911FDFD1B802A5D4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36B2B12A4D06BDD0E824AEC67DE160BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DD5B7797A02B774411698B70DD25DF3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBE9232E9D2322225AFA3B7E032B8D87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EE34BE555FEFE1E1B4921DCDAB1F0A0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E581515110D66F94F80A6937831489A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B25D795BDC4F426BC01EFC911F368B81 /* Foundation.framework in Frameworks */,
+				14C511527597E5846AB2627F791C7D8E /* QuartzCore.framework in Frameworks */,
+				E0B8D095C732352C854D365B9E5B993D /* UIKit.framework in Frameworks */,
+				6AE239C5D116E1C06F5705699FB9EAF0 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0951D3BE0C21375D6339941FBE260969 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				AE50653A1A0F2900A467960898871B95 /* HXButton.podspec */,
+				5038EA8907684DF103005D9D4BF663D8 /* LICENSE */,
+				CDEF522DAC4E7CFCF084B005B6485842 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		1BAE1D13243CF1DA000F42A9 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Assets;
+			path = HXButton/Assets;
+			sourceTree = "<group>";
+		};
+		1BAE1D15243CF1DA000F42A9 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1BAE1D1F243CF22C000F42A9 /* HXButton.h */,
+				1BDC5831243DB8D2001E4740 /* HX.swift */,
+				1BDC5829243CF449001E4740 /* UIButton+HXButton.swift */,
+				1BDC5836243DBE22001E4740 /* UIView+HXRectCorner.swift */,
+				1BDC5840243EBE31001E4740 /* UIButton+HXState.swift */,
+				1BDC5845243EDE8D001E4740 /* UIImage+HXKit.swift */,
+				1BDC584A243EE1D0001E4740 /* UIColor+HXKit.swift */,
+				1BDC583B243DC188001E4740 /* Runtime.swift */,
+			);
+			name = Classes;
+			path = HXButton/Classes;
+			sourceTree = "<group>";
+		};
+		1F6ACAC11FCFC3B4F8BCAEF61594D683 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B102BAAEC63184B2684727A63364E680 /* Pods-HXButton_Example */,
+				88150D103DACB67F9B467E9342C9A2DE /* Pods-HXButton_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		45E4BEB48F67ECE4946F86A2669DF19F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				98FD387DFA194173633270BAF1BCD859 /* FBSnapshotTestCase.modulemap */,
+				418E0471655A8CDB5EB2C290498D2FD3 /* FBSnapshotTestCase.xcconfig */,
+				3A83AE4362CF1D4764E00E4602A2D648 /* FBSnapshotTestCase-dummy.m */,
+				1B8ABEEA76ECDF1975B6D0787700F929 /* FBSnapshotTestCase-Info.plist */,
+				746CC9C9E1B0E104CD1BA120C69A2526 /* FBSnapshotTestCase-prefix.pch */,
+				E621F768263424D9C5C35D58513625CB /* FBSnapshotTestCase-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FBSnapshotTestCase";
+			sourceTree = "<group>";
+		};
+		7B4033D886CC197736CE4CB66B32944F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD86EF53B4507D1A33443CE3CBF63D57 /* HXButton.modulemap */,
+				7899E1EB5F70DA3F662DBFBE05220DB7 /* HXButton.xcconfig */,
+				76AB1854FC44F8ADAAB8D470BCD18723 /* HXButton-dummy.m */,
+				6BEDECC80C8C19E90BC3358CE298A8DC /* HXButton-Info.plist */,
+				8A9D8D56330D09276599FE89ACA266E2 /* HXButton-prefix.pch */,
+				276E899A62464EA0781F85AFCE08B67F /* HXButton-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/HXButton";
+			sourceTree = "<group>";
+		};
+		7DE5752EED0A4C4A430975244947611A /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */,
+				716A9972B9D9103B54DB950893FAF104 /* QuartzCore.framework */,
+				8CAA89EEF1039078430D7A886477E365 /* UIKit.framework */,
+				5E601BD54DA9BF4071437E60125281FA /* XCTest.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		820C839EC049005CB82FAAF13AFDCB95 /* SwiftSupport */ = {
+			isa = PBXGroup;
+			children = (
+				82D2DF1ABBBD85F5E079D7D0EB5479BC /* SwiftSupport.swift */,
+			);
+			name = SwiftSupport;
+			sourceTree = "<group>";
+		};
+		88150D103DACB67F9B467E9342C9A2DE /* Pods-HXButton_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				785AF12767DFA9EA0D704D33F8D375C5 /* Pods-HXButton_Tests.modulemap */,
+				12350516C1D269032EED6ECBE75C4D4E /* Pods-HXButton_Tests-acknowledgements.markdown */,
+				A4148063F3A8591D73880A570AEDD343 /* Pods-HXButton_Tests-acknowledgements.plist */,
+				14AC38E2AE6FF54928F9B8C83E0EDB29 /* Pods-HXButton_Tests-dummy.m */,
+				07B55DB49E1F9848369CA627FAE2340B /* Pods-HXButton_Tests-frameworks.sh */,
+				C130CB9AF4CE6BD3D81F0D70A9AB0C5F /* Pods-HXButton_Tests-Info.plist */,
+				5C1C2DC8286C78BCDE3E8898E811AF79 /* Pods-HXButton_Tests-umbrella.h */,
+				2E085B12CD4F982BEF2A8CF196F8944A /* Pods-HXButton_Tests.debug.xcconfig */,
+				5F2D0788A4371AD270A1B93DCE1A039D /* Pods-HXButton_Tests.release.xcconfig */,
+			);
+			name = "Pods-HXButton_Tests";
+			path = "Target Support Files/Pods-HXButton_Tests";
+			sourceTree = "<group>";
+		};
+		92B9827D134822FECA2FBE88A0585CBA /* FBSnapshotTestCase */ = {
+			isa = PBXGroup;
+			children = (
+				9DD967528FC2F5BD41E45879D4B78BEE /* Core */,
+				45E4BEB48F67ECE4946F86A2669DF19F /* Support Files */,
+				820C839EC049005CB82FAAF13AFDCB95 /* SwiftSupport */,
+			);
+			path = FBSnapshotTestCase;
+			sourceTree = "<group>";
+		};
+		9DD967528FC2F5BD41E45879D4B78BEE /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				3E29C50D3CDB46CBCBD20AFA13EB3D8D /* FBSnapshotTestCase.h */,
+				13C8BBFE2D9E3A9C566221B1DE04E91C /* FBSnapshotTestCase.m */,
+				D3067EAFD5B0A06885968D137840DB70 /* FBSnapshotTestCasePlatform.h */,
+				AD0B81AC7DF4855803A0FA70985F8A99 /* FBSnapshotTestCasePlatform.m */,
+				88EE4F95531D217A595AA8D85A24FA39 /* FBSnapshotTestController.h */,
+				DE35F81C954881204729C569018D98C0 /* FBSnapshotTestController.m */,
+				0A3ACA72AE9B776E644F6D159AB3E80B /* UIApplication+StrictKeyWindow.h */,
+				8F1FE5C23F1BC485C54B92C32E78391F /* UIApplication+StrictKeyWindow.m */,
+				A25844C26701FA4BCAEF64150B56777F /* UIImage+Compare.h */,
+				EF53D290F564A9B10CEF56C9DC2010F2 /* UIImage+Compare.m */,
+				E354F8FD537351F26F7949B4EBFA5101 /* UIImage+Diff.h */,
+				E0956940883830C651240E754E3ECC52 /* UIImage+Diff.m */,
+				EA718A72E676291836EBB46B85242155 /* UIImage+Snapshot.h */,
+				AA172EA1A198EEFBE0794EACF7993C02 /* UIImage+Snapshot.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		9EB0442B8F891EF6645F79523ADD94CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */,
+				02BA6B88D89F9A28B11D04EECA65232F /* HXButton.framework */,
+				FA13D2E680F2AC5AE611DE14254BC8D5 /* Pods_HXButton_Example.framework */,
+				494B96F5F4ADF0D605B36B00C0B85DBF /* Pods_HXButton_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B102BAAEC63184B2684727A63364E680 /* Pods-HXButton_Example */ = {
+			isa = PBXGroup;
+			children = (
+				36D55FD17B202F7DD1304ADBB419BC1A /* Pods-HXButton_Example.modulemap */,
+				63FF78E04F7367AAE721BED0AB010760 /* Pods-HXButton_Example-acknowledgements.markdown */,
+				AD9DE86E281AD8AA7BC0D84B33711364 /* Pods-HXButton_Example-acknowledgements.plist */,
+				F55E311061EFCB946D5A911CB28DFBEE /* Pods-HXButton_Example-dummy.m */,
+				8C1897234DDBC51337437514E6AE745B /* Pods-HXButton_Example-frameworks.sh */,
+				59D05AAF47FDDE153001819AE0A04FF7 /* Pods-HXButton_Example-Info.plist */,
+				8AB951B257C2B78AEC168F5D251B304F /* Pods-HXButton_Example-umbrella.h */,
+				4F4F2A5B5E573C5535AA0F43509D4118 /* Pods-HXButton_Example.debug.xcconfig */,
+				3522491904658BCB7AC5BF406B29F630 /* Pods-HXButton_Example.release.xcconfig */,
+			);
+			name = "Pods-HXButton_Example";
+			path = "Target Support Files/Pods-HXButton_Example";
+			sourceTree = "<group>";
+		};
+		BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7DE5752EED0A4C4A430975244947611A /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				ECB0C5BC1E605E4A0BEEDCF0C01B79B7 /* Development Pods */,
+				BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */,
+				E81A37DBDE41E671312C56736544E2FA /* Pods */,
+				9EB0442B8F891EF6645F79523ADD94CE /* Products */,
+				1F6ACAC11FCFC3B4F8BCAEF61594D683 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D67086785E74F4F93156B057DDBA28AD /* HXButton */ = {
+			isa = PBXGroup;
+			children = (
+				1BAE1D15243CF1DA000F42A9 /* Classes */,
+				1BAE1D13243CF1DA000F42A9 /* Assets */,
+				0951D3BE0C21375D6339941FBE260969 /* Pod */,
+				7B4033D886CC197736CE4CB66B32944F /* Support Files */,
+			);
+			name = HXButton;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		E81A37DBDE41E671312C56736544E2FA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				92B9827D134822FECA2FBE88A0585CBA /* FBSnapshotTestCase */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		ECB0C5BC1E605E4A0BEEDCF0C01B79B7 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D67086785E74F4F93156B057DDBA28AD /* HXButton */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1BD4150FE54BF29B97B59131257E2130 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BAE1D20243CF22C000F42A9 /* HXButton.h in Headers */,
+				A0884CD21A0DB0588CA04E69D8A11D9F /* HXButton-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21E364BEBBE93F94C34ADF438DBDB0AD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BDC5830243CF450001E4740 /* HXButton.h in Headers */,
+				8E3D412FE87D8C35DD8DE10FBB00C1BE /* Pods-HXButton_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		384DE8A8021C5DA5E256BCFEC3D478A9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F720FAF13A108CE6901E0A8B0580E1E8 /* FBSnapshotTestCase-umbrella.h in Headers */,
+				00224C929D57F45B70E87359E719948D /* FBSnapshotTestCase.h in Headers */,
+				C49D52712466511E332C952834C81FE1 /* FBSnapshotTestCasePlatform.h in Headers */,
+				90142C6259374E18E640396A59AD379A /* FBSnapshotTestController.h in Headers */,
+				40039E0AF0D764360B1D4FC4F7950D2E /* UIApplication+StrictKeyWindow.h in Headers */,
+				F1AAAE00BB32B733B238E2B4E8424506 /* UIImage+Compare.h in Headers */,
+				D04AAC8B22E4A4DC4F39891C4E52F251 /* UIImage+Diff.h in Headers */,
+				B74CD6E6EBEA0B642776BCB37850415D /* UIImage+Snapshot.h in Headers */,
+				1BDC582E243CF44F001E4740 /* HXButton.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8383AC62904396CD02DAC89357A048C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BDC582F243CF450001E4740 /* HXButton.h in Headers */,
+				D670694D8751B066D1F34F99EBD86E35 /* Pods-HXButton_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		71EB6C17BEC7026AFCFD492B8BC79194 /* Pods-HXButton_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F166C8F3EAA661A0B7C7120D718C4115 /* Build configuration list for PBXNativeTarget "Pods-HXButton_Example" */;
+			buildPhases = (
+				E8383AC62904396CD02DAC89357A048C /* Headers */,
+				B1B4C68076C09D3CEBF5FE5A7AEEBA68 /* Sources */,
+				02580CE95C4019C8BC68615B412FC838 /* Frameworks */,
+				E62B099989B6674AC3297AE405474857 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				53D6A48EEF49EADA01F889A11155B3AF /* PBXTargetDependency */,
+			);
+			name = "Pods-HXButton_Example";
+			productName = "Pods-HXButton_Example";
+			productReference = FA13D2E680F2AC5AE611DE14254BC8D5 /* Pods_HXButton_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8F267C37C2F0303FFB0288586F78E359 /* Pods-HXButton_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81EEE8A3F91361EA78A5D1DF38EAD8C2 /* Build configuration list for PBXNativeTarget "Pods-HXButton_Tests" */;
+			buildPhases = (
+				21E364BEBBE93F94C34ADF438DBDB0AD /* Headers */,
+				55D5357C1DD100D50E730FBD9250DE67 /* Sources */,
+				36B2B12A4D06BDD0E824AEC67DE160BB /* Frameworks */,
+				3A7A595E950362CC27E1EB57FBD514DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B4F651CD94F39ABA0447BD150620DDE9 /* PBXTargetDependency */,
+				AE0AA13868614F92F05F44E769A9D4B6 /* PBXTargetDependency */,
+			);
+			name = "Pods-HXButton_Tests";
+			productName = "Pods-HXButton_Tests";
+			productReference = 494B96F5F4ADF0D605B36B00C0B85DBF /* Pods_HXButton_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A38070E189561F257BBD5A0A55CACCCF /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */;
+			buildPhases = (
+				384DE8A8021C5DA5E256BCFEC3D478A9 /* Headers */,
+				A48201AC594B2E6B09C0EE0396BC1377 /* Sources */,
+				E581515110D66F94F80A6937831489A1 /* Frameworks */,
+				5CC655F1A6C7A45A9693160581076BAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FBSnapshotTestCase;
+			productName = FBSnapshotTestCase;
+			productReference = 5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F42E8D7EC90DEA1346578B4BC57A7CB0 /* HXButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D7BF5F61BF5C15A67FC77EEF321383E /* Build configuration list for PBXNativeTarget "HXButton" */;
+			buildPhases = (
+				1BD4150FE54BF29B97B59131257E2130 /* Headers */,
+				AA345C6032C2BF811A43CB46037231B9 /* Sources */,
+				DBE9232E9D2322225AFA3B7E032B8D87 /* Frameworks */,
+				9C2D9FA436735E0019129FEC27BE56CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HXButton;
+			productName = HXButton;
+			productReference = 02BA6B88D89F9A28B11D04EECA65232F /* HXButton.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				TargetAttributes = {
+					71EB6C17BEC7026AFCFD492B8BC79194 = {
+						LastSwiftMigration = 1130;
+					};
+					8F267C37C2F0303FFB0288586F78E359 = {
+						LastSwiftMigration = 1130;
+					};
+					F42E8D7EC90DEA1346578B4BC57A7CB0 = {
+						LastSwiftMigration = 1130;
+					};
+				};
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 9EB0442B8F891EF6645F79523ADD94CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */,
+				F42E8D7EC90DEA1346578B4BC57A7CB0 /* HXButton */,
+				71EB6C17BEC7026AFCFD492B8BC79194 /* Pods-HXButton_Example */,
+				8F267C37C2F0303FFB0288586F78E359 /* Pods-HXButton_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3A7A595E950362CC27E1EB57FBD514DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CC655F1A6C7A45A9693160581076BAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C2D9FA436735E0019129FEC27BE56CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E62B099989B6674AC3297AE405474857 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		55D5357C1DD100D50E730FBD9250DE67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07987BFC5652CBE049A4E7ADCCDCE4E7 /* Pods-HXButton_Tests-dummy.m in Sources */,
+				1BDC583A243DBE22001E4740 /* UIView+HXRectCorner.swift in Sources */,
+				1BDC582D243CF449001E4740 /* UIButton+HXButton.swift in Sources */,
+				1BDC5844243EBE31001E4740 /* UIButton+HXState.swift in Sources */,
+				1BDC5835243DB8D2001E4740 /* HX.swift in Sources */,
+				1BDC583F243DC188001E4740 /* Runtime.swift in Sources */,
+				1BDC584E243EE1D0001E4740 /* UIColor+HXKit.swift in Sources */,
+				1BDC5849243EDE8D001E4740 /* UIImage+HXKit.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A48201AC594B2E6B09C0EE0396BC1377 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BDC5832243DB8D2001E4740 /* HX.swift in Sources */,
+				1BDC5837243DBE22001E4740 /* UIView+HXRectCorner.swift in Sources */,
+				6DBC8EB7532E931C2FBDA71D1E0B66A4 /* FBSnapshotTestCase-dummy.m in Sources */,
+				1BDC582A243CF449001E4740 /* UIButton+HXButton.swift in Sources */,
+				1BDC583C243DC188001E4740 /* Runtime.swift in Sources */,
+				8CE3BF0ACE07EA42DD5DAC871BF4B767 /* FBSnapshotTestCase.m in Sources */,
+				1BDC5846243EDE8D001E4740 /* UIImage+HXKit.swift in Sources */,
+				E8AC509D18EBF21B1FEA909652A01108 /* FBSnapshotTestCasePlatform.m in Sources */,
+				88396E68DC05A379282F3B374F75F43C /* FBSnapshotTestController.m in Sources */,
+				9D65089019D558E5A9661F2DCAD20313 /* SwiftSupport.swift in Sources */,
+				11C410135C7E89353B480AC8DE0BFB77 /* UIApplication+StrictKeyWindow.m in Sources */,
+				2DCFF0CE0BD295F1D46D3247F36B192C /* UIImage+Compare.m in Sources */,
+				14AD81D52FAD9CF2C065C61FB00C3B4F /* UIImage+Diff.m in Sources */,
+				A525E29E0A8079B35B793D8A2B5FBDF2 /* UIImage+Snapshot.m in Sources */,
+				1BDC584B243EE1D0001E4740 /* UIColor+HXKit.swift in Sources */,
+				1BDC5841243EBE31001E4740 /* UIButton+HXState.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA345C6032C2BF811A43CB46037231B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B65E00EC8DE95134ECBCD6B909994D8 /* HXButton-dummy.m in Sources */,
+				1BDC5838243DBE22001E4740 /* UIView+HXRectCorner.swift in Sources */,
+				1BDC582B243CF449001E4740 /* UIButton+HXButton.swift in Sources */,
+				1BDC5842243EBE31001E4740 /* UIButton+HXState.swift in Sources */,
+				1BDC5833243DB8D2001E4740 /* HX.swift in Sources */,
+				1BDC583D243DC188001E4740 /* Runtime.swift in Sources */,
+				1BDC584C243EE1D0001E4740 /* UIColor+HXKit.swift in Sources */,
+				1BDC5847243EDE8D001E4740 /* UIImage+HXKit.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1B4C68076C09D3CEBF5FE5A7AEEBA68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEC5AD7505E01B5FFD6254E4AD628437 /* Pods-HXButton_Example-dummy.m in Sources */,
+				1BDC5839243DBE22001E4740 /* UIView+HXRectCorner.swift in Sources */,
+				1BDC582C243CF449001E4740 /* UIButton+HXButton.swift in Sources */,
+				1BDC5843243EBE31001E4740 /* UIButton+HXState.swift in Sources */,
+				1BDC5834243DB8D2001E4740 /* HX.swift in Sources */,
+				1BDC583E243DC188001E4740 /* Runtime.swift in Sources */,
+				1BDC584D243EE1D0001E4740 /* UIColor+HXKit.swift in Sources */,
+				1BDC5848243EDE8D001E4740 /* UIImage+HXKit.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		53D6A48EEF49EADA01F889A11155B3AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HXButton;
+			target = F42E8D7EC90DEA1346578B4BC57A7CB0 /* HXButton */;
+			targetProxy = 8223F11413ED58ACC0691E5083670CE4 /* PBXContainerItemProxy */;
+		};
+		AE0AA13868614F92F05F44E769A9D4B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-HXButton_Example";
+			target = 71EB6C17BEC7026AFCFD492B8BC79194 /* Pods-HXButton_Example */;
+			targetProxy = A2359F57D4F0D82BB5AE52C38E9D9534 /* PBXContainerItemProxy */;
+		};
+		B4F651CD94F39ABA0447BD150620DDE9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FBSnapshotTestCase;
+			target = 98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */;
+			targetProxy = DC4EE8702276DFAB3487D98FD1EFBCA2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3A1D3EF5BD419603ED3F96A17A19F5E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3522491904658BCB7AC5BF406B29F630 /* Pods-HXButton_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HXButton_Example/Pods-HXButton_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HXButton_Example/Pods-HXButton_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4D52031CF3B0E20645C7A5B874DAE677 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7899E1EB5F70DA3F662DBFBE05220DB7 /* HXButton.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HXButton/HXButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HXButton/HXButton-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HXButton/HXButton.modulemap";
+				PRODUCT_MODULE_NAME = HXButton;
+				PRODUCT_NAME = HXButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		671EC6B1D248391A88D2364B486E2633 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7899E1EB5F70DA3F662DBFBE05220DB7 /* HXButton.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HXButton/HXButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HXButton/HXButton-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HXButton/HXButton.modulemap";
+				PRODUCT_MODULE_NAME = HXButton;
+				PRODUCT_NAME = HXButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6981B49048575F8238B3C5B905C918E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 418E0471655A8CDB5EB2C290498D2FD3 /* FBSnapshotTestCase.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
+				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
+				PRODUCT_NAME = FBSnapshotTestCase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6B3F50F74A51AD6FF5FD24E421ED26A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E085B12CD4F982BEF2A8CF196F8944A /* Pods-HXButton_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HXButton_Tests/Pods-HXButton_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HXButton_Tests/Pods-HXButton_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7E48316DDEA5640E0D62C44E46DB988F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F4F2A5B5E573C5535AA0F43509D4118 /* Pods-HXButton_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HXButton_Example/Pods-HXButton_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HXButton_Example/Pods-HXButton_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		EABEE62E0E2E9F08BC39AC5AAB412563 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F2D0788A4371AD270A1B93DCE1A039D /* Pods-HXButton_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HXButton_Tests/Pods-HXButton_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HXButton_Tests/Pods-HXButton_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EE252C6C51286892441EE171776C7E81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 418E0471655A8CDB5EB2C290498D2FD3 /* FBSnapshotTestCase.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
+				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
+				PRODUCT_NAME = FBSnapshotTestCase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
+				B0087CB4594321EF41619F3181FE120E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D7BF5F61BF5C15A67FC77EEF321383E /* Build configuration list for PBXNativeTarget "HXButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				671EC6B1D248391A88D2364B486E2633 /* Debug */,
+				4D52031CF3B0E20645C7A5B874DAE677 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81EEE8A3F91361EA78A5D1DF38EAD8C2 /* Build configuration list for PBXNativeTarget "Pods-HXButton_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B3F50F74A51AD6FF5FD24E421ED26A6 /* Debug */,
+				EABEE62E0E2E9F08BC39AC5AAB412563 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A38070E189561F257BBD5A0A55CACCCF /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE252C6C51286892441EE171776C7E81 /* Debug */,
+				6981B49048575F8238B3C5B905C918E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F166C8F3EAA661A0B7C7120D718C4115 /* Build configuration list for PBXNativeTarget "Pods-HXButton_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E48316DDEA5640E0D62C44E46DB988F /* Debug */,
+				3A1D3EF5BD419603ED3F96A17A19F5E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

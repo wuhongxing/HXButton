@@ -40,12 +40,12 @@
 		607FACE51AFB9204008FA782 /* HXButton_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HXButton_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		BF25432F38421C59DA1DDE2F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		BF25432F38421C59DA1DDE2F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		D2FCB6CD25079193AFD25C15 /* Pods_HXButton_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HXButton_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA6DE1D8415031493A7AAB28 /* Pods-HXButton_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HXButton_Tests.release.xcconfig"; path = "Target Support Files/Pods-HXButton_Tests/Pods-HXButton_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		E38ECBA8B611E911D702999B /* Pods-HXButton_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HXButton_Example.release.xcconfig"; path = "Target Support Files/Pods-HXButton_Example/Pods-HXButton_Example.release.xcconfig"; sourceTree = "<group>"; };
-		E9AFBE631278D4E55113458F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		FA00111954D9FEB482FD832E /* HXButton.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = HXButton.podspec; path = ../HXButton.podspec; sourceTree = "<group>"; };
+		E9AFBE631278D4E55113458F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		FA00111954D9FEB482FD832E /* HXButton.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HXButton.podspec; path = ../HXButton.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		FB7144658B18D748192AF9F5 /* Pods-HXButton_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HXButton_Example.debug.xcconfig"; path = "Target Support Files/Pods-HXButton_Example/Pods-HXButton_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -86,7 +86,6 @@
 				15EC5E4E37A6B44A6167FBB0 /* Pods-HXButton_Tests.debug.xcconfig */,
 				DA6DE1D8415031493A7AAB28 /* Pods-HXButton_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -228,6 +227,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

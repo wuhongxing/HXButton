@@ -1,0 +1,22 @@
+{
+  "name": "HXButton",
+  "version": "0.1.0",
+  "summary": "A short description of HXButton.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/wuhongxing/HXButton",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "wuhongxing": "357898849@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/wuhongxing/HXButton.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "HXButton/Classes/**/*"
+}
